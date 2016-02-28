@@ -12,20 +12,25 @@
 
 - Install project dependencies
 
+    ```
     npm install
+    ```
 
 - Gulp task for watch scss file
 
+    ```
     gulp
+    ```
 
 - For anyone who want to use this theme, you must change disqus name at `partials/disqus.hubs` in line 17 to your name.
 
+    ```
     // From
     s.src = '//nextzy.disqus.com/embed.js';
     
     // To
     s.src = '//YOUR_DISQUS_NAME.disqus.com/embed.js';
-
+    ```
 
 ## Changelog
 
