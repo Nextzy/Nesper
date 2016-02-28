@@ -1,6 +1,6 @@
 {
-  "name": "xx",
-  "version": "10.0.9",
+  "name": "Nesper",
+  "version": "1.1.0",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0"

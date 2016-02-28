@@ -32,7 +32,6 @@
 #### 1.1.0 (02/28/2016)
 
 * initial release version 1.0.0
-* Add gulp build tool for generate scss to css file.
 * Add disqus comment system.
 * Add prism.js for syntax highlighter.
 * Edit some color schema, layout and spacing.
