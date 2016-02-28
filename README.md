@@ -4,9 +4,39 @@
 
 ## Features
 
-- [ ] Syntax Highlighter with prism.js
-- [ ] Disqus Comment System
+- [x] Syntax Highlighter with prism.js
+- [x] Disqus Comment System
 - [ ] SCSS support with Gulp.js
+
+## Development
+
+- Install project dependencies
+
+    npm install
+
+- Gulp task for watch scss file
+
+    gulp
+
+- For anyone who want to use this theme, you must change disqus name at `partials/disqus.hubs` in line 17 to your name.
+
+    // From
+    s.src = '//nextzy.disqus.com/embed.js';
+    
+    // To
+    s.src = '//YOUR_DISQUS_NAME.disqus.com/embed.js';
+
+
+## Changelog
+
+#### 1.1.0 (02/28/2016)
+
+* initial release version 1.0.0
+* Add gulp build tool for generate scss to css file.
+* Add disqus comment system.
+* Add prism.js for syntax highlighter.
+* Edit some color schema, layout and spacing.
+* Add tag in post footer.
 
 ## Copyright & License
 
