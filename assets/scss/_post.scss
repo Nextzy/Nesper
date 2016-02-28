@@ -151,3 +151,19 @@
 .post-footer .share .icon-google-plus:hover {
     color: #dd4b39;
 }
+
+.post-tags {
+    a {
+        font-size: 14px;
+        color: #9EABB3;
+        padding: 8px 10px;
+        margin-right: 4px;
+        border-radius: 4px;
+        background: rgba(0, 0, 0, 0.05);
+        text-decoration: none;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.1);
+        }
+    }
+}
