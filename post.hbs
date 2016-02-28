@@ -29,6 +29,12 @@
             {{content}}
         </section>
 
+        <div class="post-tags">
+            {{#foreach tags}}
+                <a href={{url}}>{{name}}</a>
+            {{/foreach}}
+        </div>
+
         <footer class="post-footer">
 
         {{! Everything inside the #author tags pulls data from the author }}
@@ -73,6 +79,8 @@
             </section>
 
         </footer>
+
+        {{> disqus}}
 
     </article>
 </main>
