@@ -2,11 +2,11 @@
 
 **Nesper** [Nextzy + Casper] is a Ghost theme for Nextzy's blog, forked from the default theme named [Casper](https://github.com/TryGhost/Casper).
 
-## Planned
+## Features
 
-- Syntax Highlighter with prism.js
-- Disqus Comment System
-- SCSS support with Gulp.js
+- [ ] Syntax Highlighter with prism.js
+- [ ] Disqus Comment System
+- [ ] SCSS support with Gulp.js
 
 ## Copyright & License
 
