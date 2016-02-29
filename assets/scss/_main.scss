@@ -6,7 +6,7 @@
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: $font-primary-color no-repeat center center;
     background-size: cover;
     overflow: hidden;
 
@@ -22,7 +22,7 @@
 
     a {
         text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $secondary-font;
     }
 }
 
@@ -152,7 +152,7 @@ body.nav-closed {
             text-align: right;
             font-size: 1.2rem;
             vertical-align: bottom;
-            color: #B8B8B8;
+            color: $light-gray;
             content: counter(item, lower-roman);
             counter-increment: item;
         }
@@ -170,7 +170,7 @@ body.nav-closed {
             &:after {
                 display: inline-block;
                 content: " .......................................................";
-                color: rgba(255,255,255,0.2);
+                color: rgba(255, 255, 255, 0.2);
                 margin-left: 5px;
             }
         }
@@ -184,7 +184,7 @@ body.nav-closed {
 
         &:after {
             content: " ";
-            border-bottom: rgba(255,255,255,0.5) 1px solid;
+            border-bottom: rgba(255, 255, 255, 0.5) 1px solid;
             width: 100%;
             height: 1px;
         }
@@ -194,7 +194,7 @@ body.nav-closed {
 
         &:link,
         &:visited {
-            color: #b8b8b8;
+            color: $light-gray;
         }
     }
 }
@@ -361,8 +361,8 @@ body.nav-closed {
 
         /* When the navigation is closed and there is no cover image */
         .menu-button {
-            border-color: #BFC8CD;
-            color: #9EABB3;
+            border-color: $border-color;
+            color: $gray;
 
             &:hover {
                 border-color: #555;
@@ -423,9 +423,9 @@ body.nav-closed {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: $primary-font;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .no-cover {
@@ -470,7 +470,7 @@ body.nav-closed {
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: $lighter-gray 1px solid;
     word-wrap: break-word;
 
     /* Add a little circle in the middle of the border-bottom on our .post
@@ -480,7 +480,7 @@ body.nav-closed {
         content: "";
         width: 7px;
         height: 7px;
-        border: #E7EEF2 1px solid;
+        border: $line-color 1px solid;
         position: absolute;
         bottom: -5px;
         left: 50%;
@@ -516,10 +516,10 @@ body:not(.post-template) .post-title {
     font-family: $primary-font;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: $gray;
 
     a {
-        color: #9EABB3;
+        color: $gray;
         text-decoration: none;
 
         &:hover {

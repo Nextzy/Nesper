@@ -38,7 +38,7 @@
     content: "";
     width: 7px;
     height: 7px;
-    border: #E7EEF2 1px solid;
+    border: $lighter-gray 1px solid;
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -64,7 +64,7 @@
     padding: 6px;
     background: #fff;
     z-index: 2;
-    box-shadow: #E7EEF2 0 0 0 1px;
+    box-shadow: $lighter-gray 0 0 0 1px;
 }
 
 .author-image .img {
@@ -93,7 +93,7 @@
     /* Location, website and link */
     .author-meta {
         margin: 2rem 0;
-        font-family: "Merriweather", serif;
+        font-family: $primary-font;
         letter-spacing: 0.01rem;
         font-size: 1.7rem;
     }
@@ -107,7 +107,7 @@
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 200;
-    color: #50585D;
+    color: $font-secondary-color;
     letter-spacing: 0;
     text-indent: 0;
 }
