@@ -6,7 +6,7 @@
 
 - [x] Syntax Highlighter with prism.js
 - [x] Disqus Comment System
-- [ ] SCSS support with Gulp.js
+- [x] SCSS support with Gulp.js
 
 ## Development
 
