@@ -118,10 +118,10 @@
         -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 4rem;
-    }
 
-    .read-next p {
-        display: none;
+        p {
+            display: none;
+        }
     }
 
     .read-next-story.no-cover + .read-next-story.no-cover {
@@ -160,10 +160,10 @@
 
     .blog-logo {
         padding: 5px;
-    }
 
-    .blog-logo img {
-        height: 30px;
+        img {
+            height: 30px;
+        }
     }
 
     .menu-button {
@@ -172,12 +172,14 @@
         border-width: 0;
         color: #2e2e2e;
         background: transparent;
+
+        &:hover {
+            color: #2e2e2e;
+            border-color: transparent;
+            background: none;
+        }
     }
-    .menu-button:hover {
-        color: #2e2e2e;
-        border-color: transparent;
-        background: none;
-    }
+    
     body.nav-opened .menu-button {
         background: none;
         border: transparent;
@@ -317,31 +319,34 @@
     .post-footer {
         padding: 5rem 0 3rem 0;
         text-align: center;
+
+        .author {
+            margin: 0 0 2rem 0;
+            padding: 0 0 1.6rem 0;
+            border-bottom: #EBF2F6 1px dashed;
+        }
+
+        .share {
+            position: static;
+            width: auto;
+
+            a {
+                margin: 1.4rem 0.8rem 0 0.8rem;
+            }
+        }
     }
 
-    .post-footer .author {
-        margin: 0 0 2rem 0;
-        padding: 0 0 1.6rem 0;
-        border-bottom: #EBF2F6 1px dashed;
-    }
+    .author-meta {
 
-    .post-footer .share {
-        position: static;
-        width: auto;
-    }
+        li {
+             float: none;
+            margin: 0;
+            line-height: 1.75em;
 
-    .post-footer .share a {
-        margin: 1.4rem 0.8rem 0 0.8rem;
-    }
-
-    .author-meta li {
-        float: none;
-        margin: 0;
-        line-height: 1.75em;
-    }
-
-    .author-meta li:before {
-        display: none;
+            &:before {
+                display: none;
+            }
+        }
     }
 
     .older-posts,
@@ -371,12 +376,18 @@
         height: 20vh;
     }
 
-    .author-profile .author-image {
-        margin-top: -70px;
-    }
+    .author-profile {
 
-    .author-profile .author-meta span {
-        font-size: 1.4rem;
+        .author-image {
+            margin-top: -70px;
+        }
+
+        .author-meta {
+
+            span {
+                font-size: 1.4em;
+            }
+        }
     }
 
     .archive-template .main-header .page-description {
@@ -386,10 +397,10 @@
     .read-next {
         margin-top: 2rem;
         margin-bottom: -37px;
-    }
 
-    .read-next .post {
-        width: 100%;
+        .post {
+            width: 100px;
+        }
     }
 
 }
