@@ -1,4 +1,4 @@
-.post-tempate {
+.post-template {
 
     .post-header {
         margin-bottom: 3.4rem;
@@ -10,6 +10,7 @@
 
     .post-meta {
         margin: 0;
+        padding-top: 1em;
     }
 
     .post-date {
@@ -56,6 +57,24 @@
         -ms-transform: translateX(-50%); /* for IE9 */
         transform: translateX(-50%);
     }
+
+    h1, 
+    h2, 
+    h3 {
+         padding-top: 1.4em;
+         margin-top: 1.4em;
+         border-top: 1px solid $line-color;
+     }
+ 
+     a {
+         &:hover {
+             color: $primary-color;
+         }
+     }
+
+     em {
+        color: $background-gray;
+     }
 }
 
 .footnotes {
@@ -75,26 +94,6 @@
                 text-decoration: none;
             }
         }
-    }
-}
-
-
-/* The author credit area after the post */
-.post-footer {
-    position: relative;
-    margin: 6rem 0 0 0;
-    padding: 6rem 0 0 0;
-    border-top: $lighter-gray 1px solid;
-
-    h4 {
-        font-size: 1.8rem;
-        margin: 0;
-    }
-
-    p {
-        margin: 1rem 0;
-        font-size: 1.4rem;
-        line-height: 1.75em;
     }
 }
 
@@ -120,11 +119,19 @@
 /* Create some space to the right for the share links */
 .post-footer {
 
+    position: relative;
+    margin: 6rem 0 0 0;
+    padding: 6rem 0 0 0;
+    border-top: $lighter-gray 1px solid;
+
     .author {
         margin-right: 180px;
     }
 
     h4 {
+
+        font-size: 1.8rem;
+        margin: 0;
 
         a {
             color: #2e2e2e;
@@ -135,14 +142,17 @@
             }
         }
     }
-}
 
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer {
+    p {
+        margin: 1rem 0;
+        font-size: 1.4rem;
+        line-height: 1.75em;
+    }
 
+    /* Drop the share links in the space to the right.
+       Doing it like this means it's easier for the author bio
+       to be flexible at smaller screen sizes while the share
+       links remain at a fixed width the whole time */
     .share {
         position: absolute;
         top: 6rem;

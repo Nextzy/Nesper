@@ -10,7 +10,7 @@ body {
     max-height: 100%;
     font-family: $primary-font;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.75em;
     color: $font-primary-color;
     -webkit-font-feature-settings: 'kern' 1;
@@ -131,8 +131,9 @@ blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 1.75em 0 1.75em -2.2em;
-    padding: 0 0 0 1.75em;
+    padding: 1em 0 1em 1.75em;
     border-left: $primary-color 0.4em solid;
+    background-color: $lighter-gray;
 
     p {
         margin: 0.8em 0;

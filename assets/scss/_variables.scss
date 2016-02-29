@@ -1,7 +1,7 @@
 $primary-font: 'Montserrat', 'Open Sans', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 
-$primary-color: #57b4a0;
+$primary-color: darken(#57b4a0, 20%);//#57b4a0;
 $secondary-color: #ff3436;
 $gray: #9eabb3;
 $light-gray: #bbc7cc;
@@ -12,6 +12,8 @@ $font-secondary-color: #555;
 
 $line-color: #efefef;
 $border-color: darken($light-gray, 10%);
+
+$background-gray: #c9c9c9;
 
 $facebook-color: #3b5998;
 $twitter-color: #55acee;
