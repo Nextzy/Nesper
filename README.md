@@ -34,6 +34,11 @@
 
 ## Changelog
 
+#### 1.2.0 (02/29/2016)
+
+* Support SCSS built with gulp.js
+* Add scss variables file for easy to customize.
+
 #### 1.1.0 (02/28/2016)
 
 * initial release version 1.0.0
