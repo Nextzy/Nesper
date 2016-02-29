@@ -77,15 +77,26 @@
     border-radius: 100%;
 }
 
-.author-profile .author-image {
-    position: relative;
-    left: auto;
-    top: auto;
-    width: 120px;
-    height: 120px;
-    padding: 3px;
-    margin: -100px auto 0 auto;
-    box-shadow: none;
+.author-profile {
+
+    .author-image {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 120px;
+        height: 120px;
+        padding: 3px;
+        margin: -100px auto 0 auto;
+        box-shadow: none;
+    }
+
+    /* Location, website and link */
+    .author-meta {
+        margin: 2rem 0;
+        font-family: "Merriweather", serif;
+        letter-spacing: 0.01rem;
+        font-size: 1.7rem;
+    }
 }
 
 .author-title {
@@ -103,21 +114,16 @@
 
 .author-meta {
     margin: 1.6rem 0;
-}
-/* Location, website, and link */
-.author-profile .author-meta {
-    margin: 2rem 0;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
-    font-size: 1.7rem;
-}
-.author-meta span {
-    display: inline-block;
-    margin: 0 2rem 1rem 0;
-    word-wrap: break-word;
-}
-.author-meta a {
-    text-decoration: none;
+
+    span {
+        display: inline-block;
+        margin: 0 2rem 1rem 0;
+        word-wrap: break-word;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
 
 /* Turn off meta for page2+ to make room for extra
