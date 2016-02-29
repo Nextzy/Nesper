@@ -22,7 +22,7 @@
     gulp
     ```
 
-- For anyone who want to use this theme, you must change disqus name at `partials/disqus.hubs` in line 17 to your name.
+- For anyone who want to use this theme, you must change disqus name at `partials/disqus.hbs` in line 17 to your name.
 
     ```
     // From
