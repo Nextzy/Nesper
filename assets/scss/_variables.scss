@@ -6,9 +6,12 @@ $secondary-color: #ff3436;
 $gray: #9eabb3;
 $light-gray: #bbc7cc;
 $lighter-gray: #ebf2f6;
+$super-light-gray: #f5f5f5;
 
 $font-primary-color: #222;
 $font-secondary-color: #555;
+
+$code-background-color: $super-light-gray;
 
 $line-color: #efefef;
 $border-color: darken($light-gray, 10%);

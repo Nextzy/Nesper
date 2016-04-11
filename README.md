@@ -34,6 +34,10 @@
 
 ## Changelog
 
+#### 1.2.2 (04/11/2016)
+
+* Change background color for `pre`, `code` and `blockquote`
+
 #### 1.2.0 - 1.2.1 (02/29/2016)
 
 * Support SCSS built with gulp.js

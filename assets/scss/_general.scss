@@ -133,7 +133,7 @@ blockquote {
     margin: 1.75em 0 1.75em -2.2em;
     padding: 1em 0 1em 1.75em;
     border-left: $primary-color 0.4em solid;
-    background-color: $lighter-gray;
+    background-color: $super-light-gray;
 
     p {
         margin: 0.8em 0;
@@ -171,7 +171,7 @@ code, tt {
     font-size: 0.85em;
     white-space: pre-wrap;
     border: $border-color 1px solid;
-    background: $lighter-gray;
+    background: $code-background-color;
     border-radius: 2px;
     -webkit-font-feature-settings: "liga" 0;
     -moz-font-feature-settings: "liga" 0;
@@ -189,7 +189,7 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: $code-background-color;
     border-radius: 3px;
 }
 
